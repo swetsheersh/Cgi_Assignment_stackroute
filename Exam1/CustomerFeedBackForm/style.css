@@ -1,0 +1,22 @@
+body{
+    background-color:bisque;
+    /*background-image: url(Screenshot\ 2023-07-19\ 113245.png);*/
+}
+h1{
+    font-family: cursive;
+    
+}
+.card{
+/*margin: 30px;*/
+  background-color:aquamarine;
+  /*border: 1px solid black;*/
+  opacity: 1;
+  /*box-shadow: 2px 5px whitesmoke ;*/
+}
+label{
+    color: black;
+}
+.card:hover{
+    background-color: aliceblue;
+    opacity: 1;
+}

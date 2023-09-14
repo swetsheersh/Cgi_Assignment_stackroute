@@ -1,0 +1,105 @@
+{
+  "id": "0e8f0a36-e56d-4235-acaa-3fbdd276b6bd",
+  "version": "2.0",
+  "name": "Lab2",
+  "url": "http://demo.opencart.com",
+  "tests": [{
+    "id": "c1fa3bea-18a3-4905-9590-acc379ad71cb",
+    "name": "Untitled",
+    "commands": [{
+      "id": "1456dd7f-2459-43e5-8a55-86aaeca229eb",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.opencart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f38b9cd2-5c7f-4d8e-87c8-7cd6be33bc60",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "792x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "044dd860-b572-4e10-af06-a0a7c3913578",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.opencart.com/index.php?route=account/register&language=en-gb",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f106a72-261a-4a27-b9f8-e655908adb1c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Register",
+      "targets": [
+        ["linkText=Register", "linkText"],
+        ["css=.dropdown-menu-right > li:nth-child(1) > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//nav[@id='top']/div[2]/div[2]/ul/li[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=account/register&language=en-gb')]", "xpath:href"],
+        ["xpath=//li[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2da29249-5e82-48d3-a2a3-09d0450f839a",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-firstname",
+      "targets": [
+        ["id=input-firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#input-firstname", "css:finder"],
+        ["xpath=//input[@id='input-firstname']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='account']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e351e294-d53d-45ce-abc5-7a113097feb3",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-firstname",
+      "targets": [
+        ["id=input-firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#input-firstname", "css:finder"],
+        ["xpath=//input[@id='input-firstname']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='account']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "checking"
+    }, {
+      "id": "1f0e726a-64af-4ca6-80a7-40a43178c3a8",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-lastname",
+      "targets": [],
+      "value": "checked"
+    }, {
+      "id": "34941ff3-5223-451e-8629-153d7b3a9626",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='form-register']/div/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ab943520-075b-4bb0-ae2a-ae61f434a154",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c1fa3bea-18a3-4905-9590-acc379ad71cb"]
+  }],
+  "urls": ["http://demo.opencart.com/"],
+  "plugins": []
+}

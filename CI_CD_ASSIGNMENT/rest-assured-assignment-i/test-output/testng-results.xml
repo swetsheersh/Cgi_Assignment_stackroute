@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-11T19:12:58 IST" name="Default suite" finished-at="2023-08-11T19:13:00 IST" duration-ms="2531">
+    <groups>
+    </groups>
+    <test started-at="2023-08-11T19:12:58 IST" name="Default test" finished-at="2023-08-11T19:13:00 IST" duration-ms="2531">
+      <class name="com.stackroute.product.ProductServiceApplicationTests">
+        <test-method signature="postUserTest()[pri:1, instance:com.stackroute.product.ProductServiceApplicationTests@71809907]" started-at="2023-08-11T19:12:58 IST" name="postUserTest" finished-at="2023-08-11T19:13:00 IST" duration-ms="2206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUserTest -->
+        <test-method signature="getByIdUserTest()[pri:2, instance:com.stackroute.product.ProductServiceApplicationTests@71809907]" started-at="2023-08-11T19:13:00 IST" name="getByIdUserTest" finished-at="2023-08-11T19:13:00 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getByIdUserTest -->
+        <test-method signature="putUserTest()[pri:3, instance:com.stackroute.product.ProductServiceApplicationTests@71809907]" started-at="2023-08-11T19:13:00 IST" name="putUserTest" finished-at="2023-08-11T19:13:00 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putUserTest -->
+        <test-method signature="getAllUserTest()[pri:4, instance:com.stackroute.product.ProductServiceApplicationTests@71809907]" started-at="2023-08-11T19:13:00 IST" name="getAllUserTest" finished-at="2023-08-11T19:13:00 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUserTest -->
+        <test-method signature="deleteProductTest()[pri:5, instance:com.stackroute.product.ProductServiceApplicationTests@71809907]" started-at="2023-08-11T19:13:00 IST" name="deleteProductTest" finished-at="2023-08-11T19:13:00 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProductTest -->
+      </class> <!-- com.stackroute.product.ProductServiceApplicationTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
